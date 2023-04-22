@@ -1,0 +1,87 @@
+body {
+background-image: url(kartink.jpg);
+}
+.botBattle {
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: teal;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#stone {
+}
+#paper {
+}
+#scissors {
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+}
+#images-user {
+    width: 200px;
+    height: 200px;
+}
+#images-bot {
+    width: 200px;
+    height: 200px;
+}
+#out {
+    font-size: 40px;
+    font-family: cursive;
+}
+.result {
+    font-family: cursive;
+    font-size: 30px;
+}
+@media (max-width: 1160px){
+    h1 {
+        margin-left: 10px;
+        font-family: Snell Roundhand, cursive;
+    }
+    .conteiner {
+        display: grid;
+        grid-template-columns: repeat(1, 170px);
+        grid-column-gap: 40px;
+        font-family: Snell Roundhand, cursive;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .conteiner-img {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+    }
+    .images {
+        width: 150px;
+        height: 150px;
+    }
+    #images-user {
+        width: 120px;
+        height: 120px;
+    }
+    #images-bot {
+        width: 120px;
+        height: 120px;
+    }
+    .botBattle {
+        width: 200px;
+        height: 20px;
+        border-radius: 3px;
+        border: none;
+        background-color: teal;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    #out {
+        font-size: 20px;
+        font-family: cursive;
+    }
+    .result {
+        font-family: cursive;
+        font-size: 15px;
+    }
+}
